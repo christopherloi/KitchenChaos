@@ -81,7 +81,7 @@ Get a glimpse of the final result, showcasing the complete game with all feature
 
 Explanation of the Unity interface and layout.
 
-![[UnityLayout.png]]
+![Alt text](Screenshots\UnityLayout.png?raw=true "Unity Layout")
 
 - Hierarchy, Project, Console, Animation, etc. is anchored to the bottom
 - Inspector is anchored to the right
