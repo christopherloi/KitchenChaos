@@ -1,12 +1,12 @@
-# <Kitchen Chaos>
+# Kitchen Chaos
 
 ## Overview
 
-Welcome to <Kitchen Chaos>, an immersive cooking adventure game! This project was developed based on a comprehensive tutorial, covering everything from project setup to the final polish.
+Welcome to Kitchen Chaos, an immersive cooking adventure game! This project was developed based on a comprehensive tutorial, covering everything from project setup to the final polish.
 
 ## Table of Contents
 
-- [](#)
+- [Kitchen Chaos](#kitchen-chaos)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
   - [Introduction and Overview](#introduction-and-overview)
