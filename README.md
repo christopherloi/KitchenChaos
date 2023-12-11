@@ -7,28 +7,17 @@ Welcome to Kitchen Chaos, an immersive cooking adventure game! This project was 
 ## Table of Contents
 
 - [Kitchen Chaos](#kitchen-chaos)
-
-- [Overview](#overview)
-
-- [Table of Contents](#table-of-contents)
-
-- [Introduction and Overview](#introduction-and-overview)
-
-- [Final Game Preview](#final-game-preview)
-
-- [Development Highlights](#development-highlights)
-
-- [Unity Layout](#unity-layout)
-
-- [Visual Studio Code](#visual-studio-code)
-
-- [Features](#features)
-
-- [Built With](#built-with)
-
-- [Game Screenshots](#game-screenshots)
-
-- [Acknowledgments](#acknowledgments)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction and Overview](#introduction-and-overview)
+  - [Final Game Preview](#final-game-preview)
+  - [Development Highlights](#development-highlights)
+    - [Unity Layout](#unity-layout)
+    - [Visual Studio Code](#visual-studio-code)
+  - [Features](#features)
+  - [Built With](#built-with)
+  - [Game Screenshots](#game-screenshots)
+  - [Acknowledgments](#acknowledgments)
 
 ## Introduction and Overview
 
@@ -46,7 +35,7 @@ Get a glimpse of the final result, showcasing the complete game with all feature
 
 Explanation of the Unity interface and layout.
 
-![[UnityLayout.png]]
+![Unity Layout](screenshots/UnityLayout.png)
 
 - Hierarchy, Project, Console, Animation, etc. is anchored to the bottom
 - Inspector is anchored to the right
@@ -57,7 +46,7 @@ Explanation of the Unity interface and layout.
 
 Setting up and integrating Visual Studio Code with Unity.
 
-![[VSCPackageManager.png]]
+![VSC Package Manager](screenshots/VSCPackageManager.png)
 
 - Install Visual Studio Code Editor Package
   - Window → Package Manager → Packages: Unity Registry
