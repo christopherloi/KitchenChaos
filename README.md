@@ -7,63 +7,28 @@ Welcome to Kitchen Chaos, an immersive cooking adventure game! This project was 
 ## Table of Contents
 
 - [Kitchen Chaos](#kitchen-chaos)
-  - [Overview](#overview)
-  - [Table of Contents](#table-of-contents)
-    - [Development Highlights](#development-highlights)
-  - [Introduction and Overview](#introduction-and-overview)
-  - [Final Game Preview](#final-game-preview)
-  - [Development Highlights](#development-highlights-1)
-    - [Unity Layout](#unity-layout)
-    - [Visual Studio Code](#visual-studio-code)
-  - [Features](#features)
-  - [Built With](#built-with)
-  - [Game Screenshots](#game-screenshots)
-  - [Acknowledgments](#acknowledgments)
 
-### Development Highlights
+- [Overview](#overview)
+
+- [Table of Contents](#table-of-contents)
+
+- [Introduction and Overview](#introduction-and-overview)
+
+- [Final Game Preview](#final-game-preview)
+
+- [Development Highlights](#development-highlights)
 
 - [Unity Layout](#unity-layout)
+
 - [Visual Studio Code](#visual-studio-code)
-- [Code Style, Naming Rules](#code-style-naming-rules)
-- [Importing Assets](#importing-assets)
-- [Post Processing](#post-processing)
-- [Character Controller](#character-controller)
-- [Character Visual, Rotation](#character-visual-rotation)
-- [Animations](#animations)
-- [Cinemachine](#cinemachine)
-- [Input System Refactor](#input-system-refactor)
-- [Collision Detection](#collision-detection)
-- [Clear Counter](#clear-counter)
-- [Interact Action, C# Events](#interact-action-c-events)
-- [Selected Counter Visual, Singleton Pattern](#selected-counter-visual-singleton-pattern)
-- [Kitchen Object, Scriptable Objects](#kitchen-object-scriptable-objects)
-- [Kitchen Object Parent](#kitchen-object-parent)
-- [Player Pick up, C# Interfaces](#player-pick-up-c-interfaces)
-- [Container Counter](#container-counter)
-- [Player Pick up, Drop Objects](#player-pick-up-drop-objects)
-- [Cutting Counter, Interact Alternate](#cutting-counter-interact-alternate)
-- [Cutting Recipe SO](#cutting-recipe-so)
-- [Cutting Progress, World Canvas](#cutting-progress-world-canvas)
-- [Look At Camera](#look-at-camera)
-- [Trash Counter](#trash-counter)
-- [Stove Counter, State Machine](#stove-counter-state-machine)
-- [Plates Counter](#plates-counter)
-- [Plate Pick up Objects](#plate-pick-up-objects)
-- [Plate Complete Visual](#plate-complete-visual)
-- [Plate World UI Icons](#plate-world-ui-icons)
-- [Delivery Counter, Shader Graph](#delivery-counter-shader-graph)
-- [Delivery Manager](#delivery-manager)
-- [Delivery Manager UI](#delivery-manager-ui)
-- [Music](#music)
-- [Sound Effects](#sound-effects)
-- [Game Start](#game-start)
-- [Game Over](#game-over)
-- [Main Menu, Loading](#main-menu-loading)
-- [Pause, Clear Statics](#pause-clear-statics)
-- [Options, Audio Levels](#options-audio-levels)
-- [Options, Key Rebinding](#options-key-rebinding)
-- [Controller Input, Menu Navigation](#controller-input-menu-navigation)
-- [Polish](#polish)
+
+- [Features](#features)
+
+- [Built With](#built-with)
+
+- [Game Screenshots](#game-screenshots)
+
+- [Acknowledgments](#acknowledgments)
 
 ## Introduction and Overview
 
@@ -81,7 +46,7 @@ Get a glimpse of the final result, showcasing the complete game with all feature
 
 Explanation of the Unity interface and layout.
 
-![Unity Layout](Screenshots/UnityLayout.png)
+![[UnityLayout.png]]
 
 - Hierarchy, Project, Console, Animation, etc. is anchored to the bottom
 - Inspector is anchored to the right
@@ -92,16 +57,23 @@ Explanation of the Unity interface and layout.
 
 Setting up and integrating Visual Studio Code with Unity.
 
-```csharp
-// Example code block related to Visual Studio integration
-// Your code here
-```
+![[VSCPackageManager.png]]
+
+- Install Visual Studio Code Editor Package
+  - Window → Package Manager → Packages: Unity Registry
+- Visual Studio Code Plugins:
+  - [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
+  - [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+  - [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
+  - [.NET Install Tool](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime)
+  - [.NET Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-pack)
+  - [Unity](https://marketplace.visualstudio.com/items?itemName=VisualStudioToolsForUnity.vstuc)
+  - [Unity Code Snippets](https://marketplace.visualstudio.com/items?itemName=kleber-swf.unity-code-snippets)
+  - [Unity Tools](https://marketplace.visualstudio.com/items?itemName=Tobiah.unity-tools)
 
 ## Features
 
 - Feature 1
-- Feature 2
-- …
 
 ## Built With
 
@@ -111,8 +83,6 @@ Setting up and integrating Visual Studio Code with Unity.
 ## Game Screenshots
 
 Add some captivating screenshots to showcase different aspects of your game.
-
-![Screenshot 1](https://chat.openai.com/c/link_to_screenshot1) ![Screenshot 2](https://chat.openai.com/c/link_to_screenshot2) ![Screenshot 3](https://chat.openai.com/c/link_to_screenshot3)
 
 ## Acknowledgments
 

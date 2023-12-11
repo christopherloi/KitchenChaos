@@ -57,5 +57,5 @@
     "Temp/": true
   },
   "dotnet.defaultSolution": "KitchenChaos.sln",
-  "cSpell.words": ["Behaviour", "Cinemachine", "Scriptable", "Slerp"]
+  "cSpell.words": ["Behaviour", "Cinemachine", "Intelli", "Scriptable", "Slerp"]
 }
