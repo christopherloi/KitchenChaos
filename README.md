@@ -46,7 +46,7 @@ Explanation of the Unity interface and layout.
 
 Setting up and integrating Visual Studio Code with Unity.
 
-![VSC Package Manager](screenshots/VSCPackageManager.png)
+![VSC Package Manager](../screenshots/screenshots/VSCPackageManager.png)
 
 - Install Visual Studio Code Editor Package
   - Window → Package Manager → Packages: Unity Registry
