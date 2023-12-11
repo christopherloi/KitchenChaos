@@ -9,15 +9,61 @@ Welcome to Kitchen Chaos, an immersive cooking adventure game! This project was 
 - [Kitchen Chaos](#kitchen-chaos)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
+    - [Development Highlights](#development-highlights)
   - [Introduction and Overview](#introduction-and-overview)
   - [Final Game Preview](#final-game-preview)
-  - [Prerequisites](#prerequisites)
-  - [Getting Started](#getting-started)
-  - [Development Highlights](#development-highlights)
+  - [Development Highlights](#development-highlights-1)
+    - [Unity Layout](#unity-layout)
+    - [Visual Studio Code](#visual-studio-code)
   - [Features](#features)
   - [Built With](#built-with)
   - [Game Screenshots](#game-screenshots)
   - [Acknowledgments](#acknowledgments)
+
+### Development Highlights
+
+- [Unity Layout](#unity-layout)
+- [Visual Studio Code](#visual-studio-code)
+- [Code Style, Naming Rules](#code-style-naming-rules)
+- [Importing Assets](#importing-assets)
+- [Post Processing](#post-processing)
+- [Character Controller](#character-controller)
+- [Character Visual, Rotation](#character-visual-rotation)
+- [Animations](#animations)
+- [Cinemachine](#cinemachine)
+- [Input System Refactor](#input-system-refactor)
+- [Collision Detection](#collision-detection)
+- [Clear Counter](#clear-counter)
+- [Interact Action, C# Events](#interact-action-c-events)
+- [Selected Counter Visual, Singleton Pattern](#selected-counter-visual-singleton-pattern)
+- [Kitchen Object, Scriptable Objects](#kitchen-object-scriptable-objects)
+- [Kitchen Object Parent](#kitchen-object-parent)
+- [Player Pick up, C# Interfaces](#player-pick-up-c-interfaces)
+- [Container Counter](#container-counter)
+- [Player Pick up, Drop Objects](#player-pick-up-drop-objects)
+- [Cutting Counter, Interact Alternate](#cutting-counter-interact-alternate)
+- [Cutting Recipe SO](#cutting-recipe-so)
+- [Cutting Progress, World Canvas](#cutting-progress-world-canvas)
+- [Look At Camera](#look-at-camera)
+- [Trash Counter](#trash-counter)
+- [Stove Counter, State Machine](#stove-counter-state-machine)
+- [Plates Counter](#plates-counter)
+- [Plate Pick up Objects](#plate-pick-up-objects)
+- [Plate Complete Visual](#plate-complete-visual)
+- [Plate World UI Icons](#plate-world-ui-icons)
+- [Delivery Counter, Shader Graph](#delivery-counter-shader-graph)
+- [Delivery Manager](#delivery-manager)
+- [Delivery Manager UI](#delivery-manager-ui)
+- [Music](#music)
+- [Sound Effects](#sound-effects)
+- [Game Start](#game-start)
+- [Game Over](#game-over)
+- [Main Menu, Loading](#main-menu-loading)
+- [Pause, Clear Statics](#pause-clear-statics)
+- [Options, Audio Levels](#options-audio-levels)
+- [Options, Key Rebinding](#options-key-rebinding)
+- [Controller Input, Menu Navigation](#controller-input-menu-navigation)
+- [Polish](#polish)
 
 ## Introduction and Overview
 
@@ -29,69 +75,45 @@ Get a glimpse of the final result, showcasing the complete game with all feature
 
 ![Final Game Preview](link_to_image_or_gif)
 
-## Prerequisites
-
-Ensure you have the following prerequisites installed before getting started:
-
-- Unity ([Download](https://unity.com/))
-- Visual Studio ([Download](https://visualstudio.microsoft.com/))
-
-## Getting Started
-
-1. Clone the repository.
-2. Open the project in Unity.
-3. Follow the tutorial timestamps for step-by-step instructions.
-
 ## Development Highlights
 
-Explore key development milestones:
+### Unity Layout
 
-<details>
-<summary>Click to expand</summary>
+Explanation of the Unity interface and layout.
 
-- **Unity Layout:** Understanding the Unity development environment.
-- **Visual Studio Setup:** Configuring the development environment.
-- **Coding Style:** Establishing code conventions and naming rules.
-- **Asset Importing:** Importing assets into the project.
-- **Character Controller:** Implementing player movement.
-- **Animations:** Bringing characters to life.
-- **Cinemachine:** Enhancing camera systems.
-- **Input System Refactor:** Streamlining input management.
-- **Collision Detection:** Handling object interactions.
-- **Scriptable Objects:** Utilizing Scriptable Objects for data management.
-- **C# Interfaces:** Implementing interfaces for modular design.
-- **Singleton Pattern:** Ensuring single instances of crucial components.
-- **Shader Graph:** Creating visually appealing effects.
-- **State Machine:** Managing complex game states.
-- **Menu Systems:** Designing main menu, options, and pause screens.
-- **Audio Integration:** Adding music and sound effects.
-- **Polishing:** Final touches for a seamless gameplay experience.
+![[UnityLayout.png]]
 
-</details>
+- Hierarchy, Project, Console, Animation, etc. is anchored to the bottom
+- Inspector is anchored to the right
+- Scene View and Animator is anchored together in the main screen
+- Game View is anchored to second monitor
+
+### Visual Studio Code
+
+Setting up and integrating Visual Studio Code with Unity.
+
+```csharp
+// Example code block related to Visual Studio integration
+// Your code here
+```
 
 ## Features
 
 - Feature 1
 - Feature 2
-- ...
+- …
 
 ## Built With
 
-- [Unity](https://unity.com/) - Game development engine
-- [Visual Studio](https://visualstudio.microsoft.com/) - Integrated development environment
+- Unity ([Download](https://unity.com/))
+- Visual Studio Code ([Download](https://code.visualstudio.com/))
 
 ## Game Screenshots
 
 Add some captivating screenshots to showcase different aspects of your game.
 
-![Screenshot 1](link_to_screenshot1)
-![Screenshot 2](link_to_screenshot2)
-![Screenshot 3](link_to_screenshot3)
+![Screenshot 1](https://chat.openai.com/c/link_to_screenshot1) ![Screenshot 2](https://chat.openai.com/c/link_to_screenshot2) ![Screenshot 3](https://chat.openai.com/c/link_to_screenshot3)
 
 ## Acknowledgments
 
 Special thanks to the creator of the tutorial for sharing knowledge and inspiring this project.
-
----
-
-Feel free to customize this template according to your project details. Include images, replace placeholders, and make it uniquely yours!
